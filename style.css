@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.banner-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/banner-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(/images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-what-we-do {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(/images/banner-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-donation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(/images/donation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-work {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(/images/work.jpg);
+    background-repeat: no-repeat;
+   
+    background-position: center;
+}
+.image-event {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(/images/childrens-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center 70%;
+}
+.filtrato {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/video-about-us.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.video-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/video-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-oldppl {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(/images/oldppl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.childrens-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/childrens-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.children-middle-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/childrens-middle-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.children-right-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/childrens-right-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-buttons-children {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/childrens-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom 30%;
+
+}
+
+.bg-children-white {
+    background-image: url(/images/white-child-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom 30%;
+}
+
+.bg-autism {
+    background-image: url(/images/autism.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.prova-modale {
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    z-index: 20;
+}

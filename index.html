@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="bg-white debug-screens text-slate-200 <">
+
+    <!-- MODAL -->
+<div id="modale" class="bg-white border  text-black text-2xl prova-modale w-[90%] sm:w-[70%] lg:w-[40%] 2xl:w-[30%]  rounded-md p-4 hidden">
+<div class="flex justify-between">
+    <div class="font-bold">
+        Join as a volunteer
+    </div>
+    <div>
+        <button onclick="prova()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="w-10 h-10">
+                <path fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.72 6.97a.75.75 0 1 0-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 13.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 12l1.72-1.72a.75.75 0 1 0-1.06-1.06L12 10.94l-1.72-1.72Z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+    </div>
+</div>
+<div class="text-base pt-5">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus facilis ducimus sunt? Lorem ipsum dolor
+    sit amet.
+</div>
+<div class="grid grid-cols-2 gap-5 ">
+    <div class="col-span-1 ">
+        <label class="text-sm" for="name" type="name"> Nome
+            <input class="w-full border-b-2 border-gray-600 text-sm h-10" type="name" form="">
+        </label>
+    </div>
+    <div class="col-span-1 ">
+        <label class="text-sm " for="name" type="name"> Cognome
+            <input class="w-full border-b-2 border-gray-600 h-10" type="name" form="">
+        </label>
+    </div>
+    <div class="col-span-2 pt-3">
+        <label class="text-sm" for="name" type="email"> Email ID
+            <input class=" h-10 w-full border-b-2 border-gray-600" type="email" form="">
+        </label>
+    </div>
+    <div class="col-span-2 pt-3">
+        <label for="textarea"> Message
+            <textarea class="border border-gray-600 p-2 w-full" name="textarea" id="" cols="auto" rows="auto"></textarea>
+        </label>
+    </div>
+</div>
+</div>
+<!-- FINE MODAL -->
+<!-- <div id="modale" class="bg-white border border-red-500 text-black text-2xl h-[500px] w-[500px] absolute left-0 right-0 mx-auto  rounded-md p-4 hidden"></div> -->
+
+    <!-- NAV BAR -->
+    <div class="flex justify-center w-full bg-white">
+        <div class="flex items-center justify-between  p-2 px-0  w-[90%] md:w-[70%] lg:w-[80%]">
+            <div class="text-2xl font-bold text-black cursor-pointer ">
+                largerthan<i class="font-medium">i</i>
+            </div>
+
+            <div class="text-lg font-semibold text-gray-600 cursor-pointer ">
+                <ul class="hidden gap-5 lg:flex">
+                    <li> <a href="/index.html">Home</a> </li>
+                    <li> <a href="/pages/about-us.html">About us </a> </li>
+                    <li> <a href="/pages/what-we-do.html">What We Do</a> </li>
+                    <li> <a href="/pages/media.html">Media</a> </li>
+                    <li> <a href="/pages/contact.html">Contact</a> </li>
+                </ul>
+
+            </div>
+
+            <div class="flex items-center gap-5 lg:contents">
+                <a href="/pages/donation.html">
+                    <button
+                        class="hidden p-2 px-6 text-white bg-black rounded-md cursor-pointer hover:bg-gray-800 lg:block">
+                        Donate
+                    </button>
+                </a>
+                <div class="text-black lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BANNER PRINCIPALE -->
+    <div>
+        <div class="banner-home h-[600px] sm:h-[800px]">
+            <div class="w-full sm:3/5 md:w-4/5 md:m-auto">
+                <div class="w-[90%] md:w-[70%] lg:w-[80%] m-auto">
+                    <h1
+                        class="text-3xl   md:text-3xl lg:text-5xl xl:text-7xl font-semibold text-white text-left pr-0 sm:pr-[150px]  lg:pr-[20px] xl:pr-[0px] md:pr-[200px] pt-[150px] md:pt-[200px]">
+                        Inclusive care for children with special needs
+                    </h1>
+                    <div class="flex items-center gap-5 pt-12">
+                        <div>
+                            <a href="/pages/what-we-do.html">
+                                <button
+                                    class="p-2 px-4 font-semibold text-black bg-white rounded-md cursor-pointer sm:p-4 hover:bg-gray-200">
+                                    What we do
+                                </button>
+                            </a>
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-12 h-12 ">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                            </svg>
+                            <div class="text-lg font-semibold cursor-pointer ">
+                                Play video
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w-[90%] md:w-[70%] lg:w-[80%] m-auto">
+                <div class="sm:flex items-center justify-between gap-2 pt-[50px] sm:pt-[250px] ">
+                    <span>
+                        230 children under our care
+                    </span>
+
+                    <div class="my-4 border-b border-white grow sm:my-0">
+                    </div>
+
+                    <span>
+                        58 donations collected
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- PROVIDE PLACE CONTENT, PRIMA SEZIONE-->
+    <div class="w-full bg-white pt-10">
+        <div class="w-[90%] md:w-[70%] lg:w-[80%] m-auto  py-10   ">
+            <div class="justify-center block md:justify-between md:flex">
+                <div class="w-full pb-20 text-gray-400 md:w-1/2 md:pb-0 md:pr-5">
+                    <div class="flex items-center justify-start w-full gap-5 m-auto mb-5 text-black whitespace-nowrap">
+                        <div class="w-20 border-b-2 border-gray-500 ">
+                        </div>
+                        <div class="font-bold">
+                            KNOW ABOUT US
+                        </div>
+                    </div>
+                    <h1 class="py-10 text-3xl font-bold text-black sm:text-5xl">
+                        We provide a place for children with special needs
+                    </h1>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quidem officia voluptates?
+                        Lorem ipsum dolor sit amet.
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorem corrupti saepe at
+                        soluta totam sunt expedita assumenda ipsa sint, aut et deserunt nulla alias atque, eum nostrum
+                        eligendi maxime corporis dolores voluptas unde quis, obcaecati error? A, delectus repellat!
+                    </div>
+                    <div class="py-4 sm:py-10">
+                        <a href="/pages/event-read-more.html">
+                            <button
+                                class="p-2 px-5 text-[15px] font-medium text-black bg-yellow-400 rounded-sm semibold">
+                                Learn more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="items-center rounded-3xl video-home h-[350px] w-full md:h-[500px] md:w-[400px] place-content-center">
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-12 h-12 m-auto">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- OUR SUPPORTERS -->
+        <div class="w-full bg-white">
+            <div
+                class="w-[90%] md:w-[70%]  text-black flex m-auto whitespace-nowrap  items-center justify-center mb-5  gap-5">
+                <div class="font-bold">
+                    OUR SUPPORTERS
+                </div>
+                <div class="w-full border-b-2 border-gray-300 ">
+                </div>
+            </div>
+            <div class="w-[90%] md:w-[70%] flex justify-between m-auto text-black pb-16 flex-wrap gap-5">
+                <div>1
+                    logoipsum
+                </div>
+                <div>2
+                    logoipsum
+                </div>
+                <div>3
+                    logoipsum
+                </div>
+                <div>4
+                    logoipsum
+                </div>
+                <div>5
+                    logoipsum
+                </div>
+                <div>6
+                    logoipsum
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- NUOVA SEZIONE GIALLA  -->
+    <div class="w-full bg-[#FCEDC6] py-10 ">
+        <div
+            class=" w-[90%] md:w-[70%] lg:w-[80%] flex items-center justify-start  gap-5 m-auto mb-5 text-black whitespace-nowrap">
+            <div class="w-20 border-b-2 border-gray-500 my-14">
+            </div>
+            <div class="font-bold">
+                WHAT WE DO
+            </div>
+        </div>
+        <div class="flex  w-[90%] md:w-[70%] lg:w-[80%] m-auto gap-10 flex-wrap  justify-center">
+            <div class="text-black w-full lg:w-1/2 m-auto">
+                <h2 class="font-bold text-3xl py-2">
+                    Some services we provide for our children
+                </h2>
+                <div class="pb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Excepturi!
+                </div>
+                <div class="border-l-2 border-grey-400 px-10 pt-5">
+                    <div class="font-bold py-3">
+                        <div class="flex gap-2">
+                            <div class="bg-white rounded-md p-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205 3 1m1.5.5-1.5-.5M6.75 7.364V3h-3v18m3-13.636 10.5-3.819" />
+                                </svg>
+                            </div>
+                            <div>
+                                Family support
+                            </div>
+                        </div>
+                        <div class="font-normal pl-10 text-gray-600">
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illo sapiente
+                                voluptatibus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="font-bold  py-3">
+                        <div class="flex gap-2">
+                            <div class="bg-white rounded-md p-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
+                                </svg>
+                            </div>
+                            <div>
+                                Health benefits
+                            </div>
+                        </div>
+                        <div class="font-normal pl-10 text-gray-600">
+                            <div class="">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illo sapiente
+                                voluptatibus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="font-bold  py-3">
+                        <div class="flex gap-2">
+                            <div class="bg-white rounded-md p-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
+                                </svg>
+
+                            </div>
+                            <div>
+
+                                Scholarships
+                            </div>
+
+                        </div>
+                        <div class="font-normal pl-10 text-gray-600">
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illo sapiente
+                                voluptatibus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="font-bold  py-3">
+                        <div class="flex gap-2">
+                            <div class="bg-white rounded-md p-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                                </svg>
+                            </div>
+                            <div>
+
+                                Therapy
+                            </div>
+
+                        </div>
+                        <div class="font-normal pl-10 text-gray-600">
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illo sapiente
+                                voluptatibus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-children-white bg-contain w-[450px] h-[600px] rounded-2xl">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- SERVICES WE PROVIDE, SECONDA SEZIONE -->
+    <div class="w-full bg-white pt-20">
+        <div
+            class=" w-[90%] md:w-[70%] lg:w-[80%]  text-black flex m-auto whitespace-nowrap  items-center justify-start mb-5  gap-5">
+            <div class="w-20 border-b-2 border-gray-500 ">
+            </div>
+            <div class="font-bold">
+                PROJECTS WE HAVE DONE
+            </div>
+        </div>
+
+        <div class="w-[90%] md:w-[70%] lg:w-[80%] text-black m-auto ">
+            <h1 class=" text-2xl py-12  font-bold md:text-4xl md:w-3/5 ">
+                We are creating a place where children with special needs can thrive
+            </h1>
+        </div>
+
+        <!-- INIZIO 1 CARD -->
+        <div class=" w-[90%] md:w-[70%] lg:w-[80%] grid grid-cols-1   lg:grid-cols-3 m-auto gap-2 pb-20 ">
+            <div class="w-full h-[400px] rounded-2xl childrens-home text-white">
+                <div class="grid h-full grid-rows-6 p-2 sm:p-10 lg:p-5 ">
+                    <h1 class="row-span-2 text-3xl font-semibold ">
+                        Mission smile 1k:
+                        Outdoor charity
+                    </h1>
+                    <p class="row-span-3 ">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam distinctio optio explicabo
+                        perferendis? Officia ab illo nesciunt odio debitis animi.
+                    </p>
+                    <div class="row-span-1">
+                        <a href="/pages/project-read-more.html">
+                            <button class="p-3 px-6 font-semibold text-black bg-white rounded-md hover:bg-gray-200">
+                                Learn more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--  2 CARD -->
+
+            <div class="w-full h-[400px] rounded-2xl children-middle-home text-white">
+                <div class="grid h-full grid-rows-6 p-2 sm:p-10 lg:p-5 ">
+                    <h1 class="row-span-2 text-3xl font-semibold ">
+                        Weekly excursions
+                    </h1>
+                    <p class="row-span-3 ">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam distinctio optio explicabo
+                        perferendis? Officia ab illo nesciunt odio debitis animi.
+                    </p>
+                    <div class="row-span-1">
+                        <a href="/pages/project-read-more.html">
+                            <button class="p-3 px-6 font-semibold text-black bg-white rounded-md hover:bg-gray-200">
+                                Learn more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 CARD -->
+
+            <div class="w-full h-[400px] rounded-2xl  children-right-home">
+                <div class="grid h-full grid-rows-6 p-2 sm:p-10 lg:p-5 ">
+                    <h1 class="row-span-2 text-3xl font-semibold ">
+                        Monthly public awareness
+                    </h1>
+                    <p class="row-span-3 ">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam distinctio optio explicabo
+                        perferendis? Officia ab illo nesciunt odio debitis animi.
+                    </p>
+                    <div class="row-span-1">
+                        <a href="/pages/project-read-more.html">
+                            <button class="p-3 px-6 font-semibold text-black bg-white rounded-md hover:bg-gray-200">
+                                Learn more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SEZIONE NERA CON GRAFICO A TORTA -->
+    <div class="w-full py-10 text-white bg-black">
+        <div class="w-[90%] md:w-[70%] lg:w-[80%] md:flex justify-between m-auto gap-5 items-start ">
+            <div class=" sm:w-full md:w-[45%]">
+                <h2 class="text-3xl font-bold">
+                    How we spend your donations and where it goes
+                </h2>
+                <p class="pt-5 text-gray-500">
+                    We understand that when you make a donation, you want to know exactly where your money is going and
+                    we pladge to be transparent.
+                </p>
+
+                <div class="flex flex-wrap pt-10 truncate gap-7">
+                    <div class="flex gap-2 ">
+                        <div class="w-5 h-5 rounded-md bg-[#BEF3C0]">
+                        </div>
+                        40% child care home
+                    </div>
+                    <div class="flex gap-2 ">
+                        <div class="w-5 h-5 rounded-md bg-[#AC94F1]">
+                        </div>
+                        35% cleanliness program
+                    </div>
+
+                    <div class="flex gap-2 ">
+                        <div class="w-5 h-5 rounded-md bg-[#FFF0CA]">
+                        </div>
+                        10% helping people
+                    </div>
+                    <div class="flex gap-2 ">
+                        <div class="w-5 h-5 rounded-md bg-[#F9CF64]">
+                        </div>
+                        10% excursions
+                    </div>
+                    <div class="flex gap-2 ">
+                        <div class="w-5 h-5 rounded-md bg-[#F38FBF]">
+                        </div>
+                        5% feeding the poor
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class=" pt-10 md:pt-0 sm:w-full md:w-[45%]">
+                <img src="images/torta.png" alt="404">
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- SEZIONE CON I BOTTONI  -->
+    <div class="w-full py-20 bg-white relative">
+        <div class="w-[90%] md:w-[70%] lg:w-[80%] bg-buttons-children m-auto h-auto rounded-3xl p-10 text-center">
+            <h2 class=" text-2xl sm:text-3xl text-white font-smibold md: xl:text-5xl">
+                You can contribute to provide a place for children with special needs!
+            </h2>
+
+            <div class="items-center justify-center block py-5 pt-10 font-bold sm:gap-10 sm:flex">
+                <button onclick="prova()" class="p-3 px-6 text-black bg-yellow-500 rounded-md hover:bg-yellow-600">
+                    Join as volunteer
+                </button>
+
+                <a href="/pages/donation.html">
+                    <button class="p-3 px-6 text-black bg-white rounded-md mt-7 sm:mt-0 hover:bg-gray-200">
+                        Donate
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <!-- OUR EVENTS -->
+
+    <div class="w-full bg-white">
+        <div
+            class="w-[90%] md:w-[70%] lg:w-[80%]  text-black flex m-auto whitespace-nowrap  items-center justify-center mb-5  gap-5">
+            <div class="text-3xl font-semibold">
+                OUR EVENTS
+            </div>
+            <div class="w-full border-b-2 border-gray-300 ">
+                <div class="w-[90%] md:w-[70%] text-black">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w-full mb-32 bg-white">
+        <div class="w-[90%] md:w-[70%] lg:w-[80%] text-black grid grid-cols-1 lg:grid-cols-2  m-auto gap-20">
+            <!-- PRIMA  CARD GIALLA -->
+            <div class="  grid grid-cols-10 bg-[#F2C94C] rounded-3xl  h-[150px] p-5">
+                <div class="items-center col-span-2 text-end pe-5 ">
+                    <div class=" text-2xl md:text-4xl font-semibold ">
+                        13
+                    </div>
+                    <div class=" text-sm font-semibold text-medium">
+                        APR
+                    </div>
+                </div>
+
+                <div class="col-span-6">
+                    <div class="flex items-center gap-5 text-black whitespace-nowrap">
+                        <div class="font-normal">
+                            NEW EVENTS
+                        </div>
+                        <div class="border-b-2 border-gray-500 w-14 ">
+                        </div>
+                    </div>
+                    <div class=" text-xl md:text-2xl font-bold">
+                        A day with our wonderful children
+                    </div>
+                </div>
+
+                <div class="items-center col-span-2 m-auto ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-10 h-10">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                </div>
+
+
+            </div>
+            <!-- SECONDA CARD GIALLA -->
+            <div class="  grid grid-cols-10 bg-[#F2C94C] rounded-3xl px-2  h-[150px] p-5">
+                <div class="items-center col-span-2 text-end pe-5">
+                    <div class=" text-2xl md:text-4xl font-semibold ">
+                        25
+                    </div>
+                    <div class=" text-sm font-semibold text-medium">
+                        APR
+                    </div>
+                </div>
+
+                <div class="col-span-6">
+                    <div class="flex items-center gap-5 text-black whitespace-nowrap">
+                        <div class="font-normal">
+                            NEW EVENTS
+                        </div>
+                        <div class="border-b-2 border-gray-500 w-14 ">
+                        </div>
+                    </div>
+                    <div class=" text-xl md:text-2xl font-bold">
+                        Seminar: Caring for children with autism
+                    </div>
+                </div>
+
+                <div class="items-center col-span-2 m-auto ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-10 h-10">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--80  md:70 -->
+
+
+
+
+    <!-- FOOTER 75% -->
+    <footer class="w-full py-12 leading-10 text-white bg-black">
+        <div class=" w-[90%] md:w-[70%] lg:w-[80%]  m-auto flex justify-between   ">
+            <div class="grid w-full grid-cols-4 lg:grid-cols-6 sm:gap-5 md:gap-0">
+                <div class="col-span-2 sm:col-span-2 md:col-span-1">
+                    <div class="text-xl font-bold cursor-pointer">
+                        largerthan<i class="font-medium">i</i>
+                    </div>
+                </div>
+                <div class="col-span-2 md:col-span-1">
+                    <ul class="text-gray-400">
+                        <div class="text-base font-semibold text-white">
+                            <li> <a href="/index.html">Home</a> </li>
+                        </div>
+                        <li> <a href="/pages/about-us.html">About us </a> </li>
+                        <li> <a href="/pages/media.html">Media</a> </li>
+                        <li> <a href="/pages/what-we-do.html">What We Do</a> </li>
+                        <li> <a href="/pages/contact.html">Contact</a> </li>
+                    </ul>
+                </div>
+                <div class="col-span-2 md:col-span-1">
+
+                    <ul class="text-gray-400">
+                        <div class="text-base font-semibold text-white">
+                            Connect
+                        </div>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Linkdin</li>
+                    </ul>
+                </div>
+                <div class="col-span-2 md:col-span-1">
+                    <ul class="text-gray-400">
+                        <div class="text-base font-semibold text-white">
+                            More
+                        </div>
+                        <a href="/pages/project-read-more.html">
+                            <li>Projects</li>
+                        </a>
+                        <li>Events</li>
+                        <a href="/pages/donation.html">
+                            <li>Donate</li>
+                        </a>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="grid col-span-4 grid-rows-2 pt-10 lg:col-span-2 lg:pt-0 ">
+
+                    <div class="grid-rows-1 text-3xl font-bold ">
+                        Subscribe to get latest updates
+                    </div>
+                    <div class="row-span-2 place-content-end">
+                        <div
+                            class="flex items-center justify-between grid-rows-2 border border-gray-500 rounded-lg place-content-end">
+                            <div class="px-2 text-gray-400">
+                                Your email
+                            </div>
+                            <div>
+                                <button class="p-2 text-black bg-white rounded-lg">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
